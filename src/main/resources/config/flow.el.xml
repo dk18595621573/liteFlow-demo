@@ -29,4 +29,7 @@
             batchSender
         );
     </chain>
+    <chain name="apply">
+        THEN(shipments, destroyed, cancel);
+    </chain>
 </flow>
